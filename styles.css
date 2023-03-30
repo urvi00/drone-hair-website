@@ -31,12 +31,16 @@ body {
     font-size: 24px;
 }
 
-.content-1 {
+.content-1, .content-2, .content-3, .content-4 {
     display: flex;
     justify-content: center;
+    flex:1;
+    padding: 100px 56px;
+}
+
+.content-1 {
     gap: 48px;
     background-color: #360029;
-    padding: 100px 56px;
 }
 
 .left {
@@ -47,13 +51,11 @@ body {
 .title-1 {
     width:600px;
     font-size: 48px;
-    color:#ffffff;
 }
 
 .subtext-1 {
     width:600px;
     font-size: 24px;
-    color:#ffffff;
     flex:1;
 }
 
@@ -73,12 +75,10 @@ body {
 }
 
 .content-2 {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #700054;
-    padding: 100px 56px;
 }
 
 .title-2 {
@@ -113,12 +113,9 @@ body {
 }
 
 .content-3 {
-    display: flex;
     background-color: #360029;
-    justify-content: center;
     align-items: center;
     gap: 48px;
-    padding: 100px 56px;
 }
 
 .content-3-img {
@@ -127,7 +124,6 @@ body {
 }
 
 .history {
-    color:#ffffff;
     font-size: 20px;
     width: 800px;
 }
@@ -138,11 +134,8 @@ body {
 }
 
 .content-4 {
-    display: flex;
-    background-color: #700054;
-    justify-content: center;
+    background-color: #700054; 
     align-items: center;
-    padding: 100px 56px;
 }
 
 .box {
@@ -183,5 +176,5 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #360029;
-    color:#ffffff;
 }
+
