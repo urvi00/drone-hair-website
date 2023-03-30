@@ -36,7 +36,7 @@ body {
     justify-content: center;
     gap: 48px;
     background-color: #360029;
-    padding: 56px;
+    padding: 100px 56px;
 }
 
 .left {
@@ -78,7 +78,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #700054;
-    padding: 56px;
+    padding: 100px 56px;
 }
 
 .title-2 {
@@ -118,7 +118,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 48px;
-    padding: 56px;
+    padding: 100px 56px;
 }
 
 .content-3-img {
@@ -142,7 +142,7 @@ body {
     background-color: #700054;
     justify-content: center;
     align-items: center;
-    padding: 56px;
+    padding: 100px 56px;
 }
 
 .box {
