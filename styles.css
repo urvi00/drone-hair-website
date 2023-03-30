@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     background-color: #700054;
     align-items: center;
-    padding: 0px 32px;
+    padding: 10px 32px;
 }
 
 .logo {
@@ -84,6 +84,7 @@ body {
 .tiles {
     display: flex;
     justify-content: center;
+    align-items: baseline;
     gap: 110px;
     margin: 32px;
 }
