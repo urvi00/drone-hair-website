@@ -4,6 +4,7 @@ body {
     margin:0;
     min-height: 100vh;
     color:#ffffff;
+    background-color: #360029;
 }
 
 .header {
@@ -33,6 +34,11 @@ body {
     padding: 56px;
 }
 
+.left {
+    display:flex;
+    flex-direction: column;
+}
+
 .title-1 {
     width:600px;
     font-size: 48px;
@@ -43,6 +49,17 @@ body {
     width:600px;
     font-size: 24px;
     color:#ffffff;
+    flex:1;
+}
+
+.button-1 {
+    background: #fff562;
+    border: 1px solid #faee47;
+    border-radius: 10px;
+    color: #360029;
+    padding: 16px;
+    font-size: 20px;
+    align-self:baseline;
 }
 
 .content-1-img {
@@ -61,6 +78,7 @@ body {
 
 .title-2 {
     font-size: 48px;
+    font-style:italic;
 }
 
 .tiles {
@@ -123,8 +141,35 @@ body {
 
 .box {
     background: #fff562;
+    border: 1px solid #faee47;
+    border-radius: 10px;
     width: 1248px;
     padding:56px;
+    color: #360029;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-4 {
+    color: #360029;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subtext-4 {
+    color: #360029;
+    font-size: 24px;
+}
+
+.button-2 {
+    background: #360029;
+    border: 1px solid #faee47;
+    border-radius: 10px;
+    color: #fff562;
+    padding: 16px;
+    font-size: 20px;
+    align-self:baseline;
 }
 
 .footer {
